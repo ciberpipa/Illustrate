@@ -39,7 +39,7 @@
                   <div class="max-w-7xl mx-auto px-4 sm:px-6">
                     <div class="flex justify-between items-center  border-gray-100 py-6 md:justify-start md:space-x-10">
                       <div class="flex justify-start lg:w-0 lg:flex-1">
-                      <img class="h-7 w-auto " src="/img/icono.png" alt="">
+                      <img class="h-7 w-auto " src="{{asset('/img/icono.png')}}" alt="">
                       </div>
                         <a href="{{ url('/') }}" class="text-base font-medium text-gray-500 hover:text-gray-900 lg:flex-1"> Inicio</a>
                         <a href="{{ url('/guias') }}" class="text-base font-medium text-gray-500 hover:text-gray-900 lg:flex-1"> Guia</a>

@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <img src="/img/icono.png" class="h-24 w-auto"  />
+            <img src="{{asset('/img/icono.png')}}" class="h-24 w-auto"  />
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
